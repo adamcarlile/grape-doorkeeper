@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "grape-doorkeeper"
 
   s.add_runtime_dependency 'grape', '~> 0.6'
-  s.add_runtime_dependency 'doorkeeper', '~> 0'
+  s.add_runtime_dependency 'doorkeeper'
     
   s.add_development_dependency 'rack-test', '~> 0'
   s.add_development_dependency 'rspec', '~> 2.9'
